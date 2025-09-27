@@ -1,58 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Gallery - Pawfect Companions</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Gallery - Pawfect Companions</title>
+  <meta name="description" content="Pet photos, sounds, and videos from Pawfect Companions." />
+  <link rel="canonical" href="https://faith444.github.io/pawfect-companions/media.html" />
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Media Gallery</h1>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About</a> |
-            <a href="media.html">Media</a> |
-            <a href="extras.html">Extra Treats</a>
-        </nav>
-    </header>
+  <a href="#main" class="visually-hidden">Skip to content</a>
 
-    <main>
-        <section>
-            <h2>Meet Our Pets</h2>
+  <header class="site-header">
+    <div class="header-inner container">
+      <h1 class="site-title">Media Gallery</h1>
+      <nav class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="media.html" aria-current="page">Media</a></li>
+          <li><a href="extras.html">Extra Treats</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-            <figure>
-                <img src="assets/images/cat.jpg" alt="A cat wearing a scarf indoors" width="350">
-                <figcaption>Our resident cat Milo.</figcaption>
-            </figure>
+  <main id="main" class="container page-grid">
+    <article class="card">
+      <section>
+        <h2>Meet Our Pets</h2>
 
-            <figure>
-                <img src="assets/images/dog.jpg" alt="A dog wearing glasses" width="350">
-                <figcaption>When the study group needs a leader.</figcaption>
-            </figure>
-        </section>
+        <figure>
+          <img src="assets/images/cat.jpg" alt="A cat wearing a scarf indoors" width="350">
+          <figcaption>Our resident cat Milo.</figcaption>
+        </figure>
 
-        <section>
-            <h2>Listen - Kitten Meowing</h2>
-            <audio controls>
-                <source src="assets/audio/meow.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-            <p>Kitten meowing sound.</p>
-        </section>
+        <figure>
+          <img src="assets/images/dog.jpg" alt="A dog wearing glasses" width="350">
+          <figcaption>When the study group needs a leader.</figcaption>
+        </figure>
+      </section>
 
-        <section>
-            <h2>Watch - Puppies for Adoption</h2>
-            <video controls width="400">
-                <source src="assets/video/puppies.mp4" type="video/mp4">
-                <track src="assets/captions/puppies.vtt" kind="captions" srclang="en" label="English">
-                Your browser does not support the video tag.
-            </video>
-        </section>
-    </main>
+      <section>
+        <h2>Listen - Kitten Meowing</h2>
+        <audio controls>
+          <source src="assets/audio/meow.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <p>Kitten meowing sound.</p>
+      </section>
 
-    <footer>
-        <p>Media credits: photos and videos from Unsplash and Pexels.</p>
-        <p>&copy; <time datetime="2025">2025</time> Pawfect Companions.</p>
-    </footer>
+      <section>
+        <h2>Watch - Puppies for Adoption</h2>
+        <video controls width="400">
+          <source src="assets/video/puppies.mp4" type="video/mp4">
+          <track src="assets/captions/puppies.vtt" kind="captions" srclang="en" label="English">
+          Sorry, your browser does not support embedded videos.
+        </video>
+      </section>
+    </article>
+  </main>
+
+  <footer class="container">
+    <p>Media credits: photos and videos from Unsplash and Pexels.</p>
+    <p>&copy; <time datetime="2025">2025</time> Pawfect Companions.</p>
+  </footer>
 </body>
 </html>
