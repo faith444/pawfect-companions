@@ -31,6 +31,3 @@ You can view the website here: [Pawfect Companions Live Site](https://faith444.g
 - Includes a **Vet’s Corner** dialog message with Dr. Lois’ email.  
 - Shows **training progress** and a **health meter**.  
 - Demonstrates microcontent: `<time>`, `<mark>`, `<abbr>`, and `<blockquote>`.  
-
-## Notes
-The project follows accessibility guidelines by including a skip link, proper headings, figure/figcaption, alt text, and semantic structure. Meta tags for charset, viewport, description, and canonical are also included.
