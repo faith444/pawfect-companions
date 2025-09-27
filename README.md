@@ -3,7 +3,7 @@
 Pawfect Companions is a static website created for my HTML lab practical. The site is pet-themed and demonstrates use of semantic HTML, accessibility, and multimedia.
 
 ## Live URL
-You can view the website here: [Pawfect Companions Live Site](https://faith444.github.io/pawfect-companions/)
+You can view the  website here: [Pawfect Companions Live Site](https://faith444.github.io/pawfect-companions/)
 
 ## Pages Overview
 
