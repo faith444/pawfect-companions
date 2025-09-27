@@ -73,23 +73,28 @@
         </blockquote>
       </section>
 
-      <!-- Dialog with Dr. Lois -->
-      <section>
-        <h2>Vet’s Corner</h2>
-        <dialog open>
-          <p><strong>Dr. Lois</strong> says: “Your pets deserve the best care every day.”</p>
-        </dialog>
-      </section>
+      <!-- Training and Vet’s Corner side by side -->
+      <section style="display: flex; gap: 1.5rem; align-items: flex-start; flex-wrap: wrap;">
+        
+        <!-- Training -->
+        <div style="flex: 1; min-width: 250px;">
+          <h2>Training and Health</h2>
+          <p>Training progress: 
+            <progress value="70" max="100">70%</progress>
+          </p>
+          <p>Pet health meter: 
+            <meter value="0.9" min="0" max="1" optimum="1">90%</meter>
+          </p>
+        </div>
 
-      <!-- Progress & Meter -->
-      <section>
-        <h2>Training and Health</h2>
-        <p>Training progress: 
-          <progress value="70" max="100">70%</progress>
-        </p>
-        <p>Pet health meter: 
-          <meter value="0.9" min="0" max="1" optimum="1">90%</meter>
-        </p>
+        <!-- Vet’s Corner -->
+        <div class="card" style="max-width:300px; margin-left:auto; margin-right:0;">
+          <h2>Vet’s Corner</h2>
+          <dialog open style="position:relative; margin:0; width:100%;">
+            <p><strong>Dr. Lois</strong> says: “Your pets deserve the best care every day.”</p>
+          </dialog>
+        </div>
+
       </section>
 
       <!-- Contact Vet -->
