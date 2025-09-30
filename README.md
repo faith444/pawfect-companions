@@ -4,11 +4,11 @@ Pawfect Companions is a simple pet-themed website that I created for my HTML and
 
 ## Live Website
 You can view the published website here:  
-👉 [Pawfect Companions Live Site](https://faith444.github.io/pawfect-companions/)
+ [Pawfect Companions Live Site](https://faith444.github.io/pawfect-companions/)
 
 ## GitHub Repository
 The full project files are available in my GitHub repository:  
-👉 [Pawfect Companions Repository](https://github.com/faith444/pawfect-companions)
+ [Pawfect Companions Repository](https://github.com/faith444/pawfect-companions)
 
 The repository includes the HTML pages, the CSS styling file, and extra files like audio, video, and images.
 
@@ -27,6 +27,6 @@ Accessibility was a key focus. I included alt text for images, captions for the 
 ## Containerization with Docker
 Finally, I used Docker with an nginx server image to serve the site and published the container image to Docker Hub so it can be reused.  
 
-👉 [Docker Hub: Pawfect Companions Container Image](https://hub.docker.com/r/nyawirafaith/html5-css3-site/tags)
+ [Docker Hub: Pawfect Companions Container Image](https://hub.docker.com/r/nyawirafaith/html5-css3-site/tags)
 
-]]
+
